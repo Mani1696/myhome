@@ -1,0 +1,3 @@
+FROM eclipse-temurin:17
+COPY target/myhome.jar myhome.jar
+CMD ["java","-jar","myhome.jar"]
